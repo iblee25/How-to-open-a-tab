@@ -1,12 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Continue to How to open tabs</title>
-</head>
-<body>
-  <h1>Tab Opener</h1>
-  <button onclick="openTabs()">Start Opening Tabs</button>
-
   <script>
     const urls = [
       "https://google.com",
@@ -143,9 +136,4 @@
           return;
         }
         window.open(urls[i], '_blank');
-        i++;
-      }, 2000); // opens one tab per second
-    }
-  </script>
-</body>
-</html>
+     
